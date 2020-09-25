@@ -1,0 +1,26 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "foodstuffs:sweet_bread"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:bread"
+			},
+			{
+				"item": "minecraft:sugar",
+				"count": 2
+			}
+		],
+		"result": [
+			{
+				"item": "foodstuffs:sweet_bread"
+			}
+		]
+	}
+}

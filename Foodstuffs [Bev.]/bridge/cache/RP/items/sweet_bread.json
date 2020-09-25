@@ -1,0 +1,77 @@
+{
+	"file_path": "W:\\Users\\LEPICHU\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Foodstuffs [Res.]\\items\\sweet_bread.json",
+	"file_type": "client_item",
+	"format_version": 1,
+	"file_uuid": "d92e05a7_1e38_4e83_b354_36f0694204ff",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "foodstuffs:sweet_bread",
+							"category": "Equipment"
+						},
+						"components": {
+							"minecraft:icon": "sweet_bread",
+							"minecraft:hover_text_color": "white",
+							"minecraft:render_offsets": "apple",
+							"minecraft:use_animation": "eat"
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "foodstuffs:sweet_bread",
+								"category": "Equipment"
+							},
+							"components": {
+								"minecraft:icon": "sweet_bread",
+								"minecraft:hover_text_color": "white",
+								"minecraft:render_offsets": "apple",
+								"minecraft:use_animation": "eat"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "foodstuffs:sweet_bread",
+							"category": "Equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "foodstuffs:sweet_bread",
+								"category": "Equipment"
+							},
+							"components": {
+								"minecraft:icon": "sweet_bread",
+								"minecraft:hover_text_color": "white",
+								"minecraft:render_offsets": "apple",
+								"minecraft:use_animation": "eat"
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:icon": "sweet_bread",
+							"minecraft:hover_text_color": "white",
+							"minecraft:render_offsets": "apple",
+							"minecraft:use_animation": "eat"
+						}
+					}
+				]
+			}
+		]
+	}
+}

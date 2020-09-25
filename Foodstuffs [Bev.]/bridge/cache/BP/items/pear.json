@@ -1,0 +1,122 @@
+{
+	"file_path": "W:\\Users\\LEPICHU\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Foodstuffs [Bev.]/items/pear.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "2c91f627_f84c_4e2d_bff6_925d860a19d5",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.1,
+					"minecraft:item": {
+						"description": {
+							"identifier": "foodstuffs:pear"
+						},
+						"components": {
+							"minecraft:use_duration": 32,
+							"minecraft:food": {
+								"nutrition": 4,
+								"saturation_modifier": "low"
+							},
+							"minecraft:max_stack_size": 64,
+							"minecraft:hand_equipped": false,
+							"minecraft:stacked_by_data": true,
+							"minecraft:foil": false
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "foodstuffs:pear"
+							},
+							"components": {
+								"minecraft:use_duration": 32,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "low"
+								},
+								"minecraft:max_stack_size": 64,
+								"minecraft:hand_equipped": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:foil": false
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "foodstuffs:pear"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "foodstuffs:pear"
+							},
+							"components": {
+								"minecraft:use_duration": 32,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "low"
+								},
+								"minecraft:max_stack_size": 64,
+								"minecraft:hand_equipped": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:foil": false
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "32",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"open": {
+									"minecraft:use_duration": 32,
+									"minecraft:food": {
+										"nutrition": 4,
+										"saturation_modifier": "low"
+									},
+									"minecraft:max_stack_size": 64,
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:foil": false
+								},
+								"key": "minecraft:food",
+								"is_minified": true,
+								"children": {
+									"nutrition": 4,
+									"saturation_modifier": "low"
+								}
+							},
+							{
+								"data": "64",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:foil"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

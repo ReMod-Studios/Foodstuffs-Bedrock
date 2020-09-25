@@ -1,0 +1,23 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "foodstuffs:salt_deposit",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 7.5,
+			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_absorption": 1,
+			"minecraft:map_color": "#656768",
+			"minecraft:flammable": {
+				"burn_odds": 0,
+				"flame_odds": 0
+			},
+			"minecraft:friction": 0.5,
+			"minecraft:explosion_resistance": 1.5,
+			"minecraft:loot": "loot_tables/salt_deposit.json"
+		}
+	}
+}

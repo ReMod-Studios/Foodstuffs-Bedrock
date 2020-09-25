@@ -1,0 +1,139 @@
+{
+	"animation_controller": {
+		"BP/animation_controllers/bridge/custom_item_behavior.json": {
+			"ids": [
+				"controller.animation.bridge_custom_item_behavior"
+			],
+			"custom_commands": []
+		}
+	},
+	"block": {
+		"BP/blocks/salt_deposit.json": {
+			"identifiers": [
+				"foodstuffs:salt_deposit"
+			]
+		}
+	},
+	"entity": {
+		"BP/entities/gnawler.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"foodstuffs:gnawler"
+			],
+			"animation_references": [],
+			"families": [
+				"gnawler",
+				"fish"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/player.json": {
+			"events": [
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [],
+			"families": [
+				"player"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"item": {
+		"BP/items/salt.json": {
+			"identifiers": [
+				"foodstuffs:salt"
+			],
+			"custom_commands": []
+		},
+		"BP/items/sweet_bread.json": {
+			"identifiers": [
+				"foodstuffs:sweet_bread"
+			],
+			"custom_commands": []
+		},
+		"BP/items/honey_melon.json": {
+			"identifiers": [
+				"foodstuffs:honey_melon"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pear.json": {
+			"identifiers": [
+				"foodstuffs:pear"
+			],
+			"custom_commands": []
+		},
+		"BP/items/golden_pear.json": {
+			"identifiers": [
+				"foodstuffs:golden_pear"
+			],
+			"custom_commands": []
+		}
+	},
+	"rp_animation": {
+		"RP/animations/gnawler.json": {
+			"ids": [
+				"animation.gnawler.flop",
+				"animation.gnawler.swim"
+			]
+		}
+	},
+	"client_entity": {
+		"RP/entity/gnawler.json": {
+			"identifiers": [
+				"foodstuffs:gnawler"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"flop",
+				"swim"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		}
+	},
+	"entity_model": {
+		"RP/models/entity/gnawler.geo.json": {
+			"identifiers": [
+				"geometry.gnawler"
+			]
+		}
+	},
+	"render_controller": {
+		"RP/render_controllers/gnawler.json": {
+			"ids": [
+				"controller.render.gnawler"
+			]
+		}
+	},
+	"sound_definition": {
+		"RP/sounds/sound_definitions.json": {
+			"ids": [
+				"mob.gnawler.flop",
+				"mob.gnawler.hurt",
+				"mob.gnawler.step"
+			]
+		}
+	}
+}

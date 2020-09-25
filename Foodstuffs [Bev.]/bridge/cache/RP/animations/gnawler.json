@@ -1,0 +1,63 @@
+{
+	"file_path": "W:\\Users\\LEPICHU\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Foodstuffs [Res.]\\animations\\gnawler.json",
+	"file_type": "rp_animation",
+	"format_version": 0,
+	"cache_content": {
+		"format_version": "1.8.0",
+		"animations": {
+			"animation.gnawler.flop": {
+				"loop": true,
+				"bones": {
+					"body_back": {
+						"rotation": [
+							0,
+							"math.cos(variable.animationamountblend * 45.0) * -21.75",
+							0
+						]
+					},
+					"body_front": {
+						"rotation": [
+							0,
+							"math.cos(variable.animationamountblend * 45.0) * 4.0",
+							"variable.zrot"
+						]
+					},
+					"tailfin": {
+						"rotation": [
+							0,
+							"math.cos(variable.animationamountblend * 45.0) * -40.0",
+							0
+						]
+					}
+				}
+			},
+			"animation.gnawler.swim": {
+				"loop": true,
+				"bones": {
+					"body_back": {
+						"rotation": [
+							0,
+							"math.cos(variable.animationamountblend * 30.0) * -21.75",
+							0
+						]
+					},
+					"body_front": {
+						"rotation": [
+							0,
+							"math.cos(variable.animationamountblend * 30.0) * 4.0",
+							0
+						]
+					},
+					"tailfin": {
+						"rotation": [
+							0,
+							"math.cos(variable.animationamountblend * 30.0) * -40.0",
+							0
+						]
+					}
+				}
+			}
+		}
+	},
+	"file_uuid": "00c6bdb5_79b7_4c11_a6f1_c191fd41d9e7"
+}

@@ -1,0 +1,15 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "foodstuffs:honey_melon",
+			"category": "Equipment"
+		},
+		"components": {
+			"minecraft:icon": "sweet_melon",
+			"minecraft:use_animation": "eat",
+			"minecraft:render_offsets": "melon"
+		}
+	}
+}

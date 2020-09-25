@@ -1,0 +1,29 @@
+//bridge-file-version: #0
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "foodstuffs:golden_pear"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#X#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:gold_ingot"
+			},
+			"X": {
+				"item": "foodstuffs:pear"
+			}
+		},
+		"result": {
+			"item": "foodstuffs:golden_pear",
+			"data": 0
+		}
+	}
+}

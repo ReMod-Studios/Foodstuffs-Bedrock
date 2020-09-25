@@ -1,0 +1,87 @@
+{
+	"file_path": "W:\\Users\\LEPICHU\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Foodstuffs [Res.]/items/honey_melon.json",
+	"file_type": "client_item",
+	"format_version": 1,
+	"file_uuid": "3624b2fe_3704_4238_a795_59694895cf70",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "foodstuffs:honey_melon",
+							"category": "Equipment"
+						},
+						"components": {
+							"minecraft:icon": "sweet_melon",
+							"minecraft:use_animation": "eat",
+							"minecraft:render_offsets": "melon"
+						}
+					}
+				},
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "foodstuffs:honey_melon",
+							"category": "Equipment"
+						},
+						"components": {
+							"minecraft:icon": "sweet_melon",
+							"minecraft:use_animation": "eat",
+							"minecraft:render_offsets": "melon"
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "foodstuffs:honey_melon",
+								"category": "Equipment"
+							},
+							"components": {
+								"minecraft:icon": "sweet_melon",
+								"minecraft:use_animation": "eat",
+								"minecraft:render_offsets": "melon"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "foodstuffs:honey_melon",
+							"category": "Equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "foodstuffs:honey_melon",
+								"category": "Equipment"
+							},
+							"components": {
+								"minecraft:icon": "sweet_melon",
+								"minecraft:use_animation": "eat",
+								"minecraft:render_offsets": "melon"
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:icon": "sweet_melon",
+							"minecraft:use_animation": "eat",
+							"minecraft:render_offsets": "melon"
+						}
+					}
+				]
+			}
+		]
+	}
+}
