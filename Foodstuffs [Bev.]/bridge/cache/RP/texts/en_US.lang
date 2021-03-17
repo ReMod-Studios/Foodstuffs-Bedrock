@@ -1,8 +1,0 @@
-{
-	"file_path": "W:\\Users\\LEPICHU\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Foodstuffs [Res.]\\texts\\en_US.lang",
-	"file_type": "client_lang",
-	"format_version": 0,
-	"file_uuid": "e15064a4_1c9d_4126_9e01_685bc148ef3e",
-	"file_version": 5,
-	"cache_content": "pack.name=Foodstuffs §6[Res.]\r\npack.description=Adds more foodstuffs to Minecraft in a vanila+ fashion!\r\n\r\n##spawneggs\r\nitem.spawn_egg.entity.foodstuffs:gnawler.name=Spawn Gnawler\r\n\r\n##entity\r\nentity.foodstuffs:gnawler.name=Gnawler\r\n\r\n##blocks\r\ntile.foodstuffs:salt_deposit.name=Salt Deposit\r\n\r\n##items\r\nitem.foodstuffs:salt.name=Salt Chunks\r\nitem.foodstuffs:sweet_bread.name=Sweet Bread\r\nitem.foodstuffs:honey_melon.name=Honey Melon\r\nitem.foodstuffs:pear.name=Pear\r\nitem.foodstuffs:golden_pear.name=Golden Pear"
-}
